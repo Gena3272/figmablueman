@@ -1,0 +1,100 @@
+.business
+  position relative
+  margin-top: 96px
+
+  & > img
+    position: absolute
+    bottom: -350px
+
+  &__block
+    display flex
+    justify-content space-between
+
+  &__col
+    position relative
+    z-index 20
+    max-width: 470px
+    width 43%
+
+    &__title
+      font-size 42px
+      line-height 50px
+      color $colorTextTitle
+      margin 0
+      padding-right 35px
+
+    &__title > span
+      color  $or
+
+    &__dec
+      font-size: 15px;
+      line-height: 28px;
+      letter-spacing: .5px
+      color $blue-1
+      margin 0
+      margin-top 32px
+
+    &__btn
+      margin-top 43px
+      padding-top 14px
+      padding-bottom 14px
+      display block
+      width: 157px
+      border-radius: 3px
+      border: none
+      color white
+      background $or
+      font-weight: 500
+      font-size: 12px
+      line-height: 20px
+      text-align: center
+      letter-spacing: 2px
+      text-transform: uppercase
+      transition: .5s
+      box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23)
+      outline: none
+
+    &__btn:hover
+      border 1px solid $or
+      background-color transparent
+      color $or
+      box-shadow: none
+
+  &__block-img
+    position relative
+    z-index: 15
+    max-width 442px
+    width 41%
+
+    &__graf, &__graf-svg, &__point
+      position absolute
+
+    &__graf
+      right -70px
+      top 250px
+      z-index 1
+      width 130px
+      height 65px
+
+
+    &__card
+      position relative
+      top 0
+      margin-left 108px
+      z-index 2
+      max-width: 287px
+      width 65%
+
+
+    &__graf-svg
+      left 0
+      top 110px
+      z-index 4
+
+
+    &__point
+      Width 818px
+      Height 461px
+      right 100px
+      top 10px
+      z-index 1
